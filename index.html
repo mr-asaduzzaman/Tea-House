@@ -30,27 +30,46 @@
     <!-- Main Content -->
     <main class="max-w-screen-xl mx-auto px-5 lg:px-24">
         <!-- Header Section -->
-        <header class="lg:flex pt-10 mb-20">
-            <!-- Text Area -->
-            <div>
-                <h2 class="text-5xl font-bold pb-5 pt-10">It's good <br> tea time at The <br> Tea House</h2>
-                <p class="text-gray-500 w-3/4 pb-5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white ">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
-            </div>
-            <!-- Image Area -->
-             <div class="relative">
-                <img src="images/banner.png" alt="">
-                <!-- Card -->
-                <div class=" flex items-center bg-white drop-shadow-lg px-5 py-3 rounded-lg absolute lg:top-80 lg:left-28 top-64 left-24">
-                     <!-- Icon -->
-                     <div><i class="fa-solid fa-star text-amber-400 text-3xl"></i></div>
-                     <!-- Text -->
-                     <div class="pl-2">
-                        <h2 class="text-3xl font-bold">5.00</h2>
-                        <p class="text-gray-500">Trust Pilot Ratings</p>
-                     </div>
-                </div>
+        <header>
+          <!-- Headr Navbar -->
+          <div class="lg:flex items-center justify-between mt-10 bg-gradient-to-b from-slate-200 to-slate-50 px-5 py-4 rounded-lg">
+            <!-- brand  -->
+             <div class="flex items-center gap-4">
+            <img class="h-1/4 w-1/4" src="images/cup.png" alt="">
+            <div class="w-full text-2xl font-bold uppercase"><span class="text-lime-500">Tea</span> House</div>
              </div>
+            <!-- Nav links -->
+            <div>
+              <ul class="flex gap-5">
+               <button  class="bg-gradient-to-br from-lime-500 to-white px-2 rounded-md">Home</button>
+               <button  class="bg-gradient-to-br from-lime-500 to-white px-2 rounded-md">Blog</button>
+               <button  class="bg-gradient-to-br from-lime-500 to-white px-2 rounded-md">About us</button>
+               <button  class="bg-gradient-to-br from-lime-500 to-white px-2 rounded-md">Contact Us</button>
+              </ul>
+            </div>
+          </div>
+          <div class="lg:flex pt-10 mb-20 bg-slate-50 rounded-b-lg">
+          <!-- Header Text Area -->
+          <div>
+              <h2 class="text-5xl font-bold pb-5 pt-10">It's good <br> tea time at The <br> Tea House</h2>
+              <p class="text-gray-500 w-3/4 pb-5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+              <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white ">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+          </div>
+          <!-- Header Image Area -->
+           <div class="relative">
+              <img src="images/banner.png" alt="">
+              <!-- Card -->
+              <div class=" flex items-center bg-white drop-shadow-lg px-5 py-3 rounded-lg absolute lg:top-80 lg:left-28 top-64 left-24">
+                   <!-- Icon -->
+                   <div><i class="fa-solid fa-star text-amber-400 text-3xl"></i></div>
+                   <!-- Text -->
+                   <div class="pl-2">
+                      <h2 class="text-3xl font-bold">5.00</h2>
+                      <p class="text-gray-500">Trust Pilot Ratings</p>
+                   </div>
+              </div>
+           </div>
+      </div>
         </header>
         <!-- Featured Products Section -->
          <section class="mx-auto">
@@ -133,7 +152,7 @@
              </div>
 
              <!-- Top card -->
-             <div class="absolute -top-40 left-28 opacity-40 bg-white h-48 w-full md:w-3/4 rounded-lg">
+             <div class="absolute -top-40 lg:left-28 opacity-40 bg-white h-48 w-full md:w-3/4 rounded-lg">
               <div class="relative -top-5 -left-7 ">
                 <img class="bg-white rounded-full p-1" src="images/client.png" alt="">
               </div>
@@ -145,7 +164,7 @@
            </div>
 
            <!-- Bottom card -->
-           <div class="absolute top-10 left-28 opacity-40 bg-white h-48 w-full md:w-3/4 rounded-lg">
+           <div class="absolute top-10 lg:left-28 opacity-40 bg-white h-48 w-full md:w-3/4 rounded-lg">
             <div class="relative -top-5 -left-7 ">
               <img class="bg-white rounded-full p-1" src="images/client.png" alt="">
             </div>
@@ -195,5 +214,86 @@
         </div>
      </section>
     </main>
+    <!-- Footer section -->
+     <footer class="w-full mx-auto lg:h-[46rem] bg-orange-50">
+      <!-- Footer Logo -->
+       <div class="flex justify-between mx-40 py-20">
+        <!-- icon -->
+        <div>
+          <img src="images/cup.png" alt="">
+        </div>
+        <!-- Get Started -->
+        <div class="flex items-center gap-4">
+          <p class="text-xl">Ready to get strated?</p>
+          <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white ">Get Started</button>
+        </div>
+       </div>
+      <!-- Footer Columns -->
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-40 ">
+          <!-- Column 1 -->
+          <div class="flex flex-col gap-5">
+            <h3 class="font-bold text-xl">Quick Links</h3>
+            <ul class="flex flex-col gap-5">
+              <li>
+                <a href="https://facebook.com/AsaduzzamanRakib.66">Home</a>
+              </li>
+              <li>
+                <a href="https://facebook.com/AsaduzzamanRakib.66">About Us</a>
+              </li>
+              <li>
+                <a href="https://facebook.com/AsaduzzamanRakib.66">Insurance</a>
+              </li>
+              <li>
+                <a href="https://facebook.com/AsaduzzamanRakib.66">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Column 2 -->
+          <div class="flex flex-col gap-5">
+            <h3 class="font-bold text-xl">Our Service</h3>
+            <ul class="flex flex-col gap-5">
+              <li>
+                <a href="https://facebook.com/AsaduzzamanRakib.66">Home</a>
+              </li>
+              <li>
+                <a href="https://facebook.com/AsaduzzamanRakib.66">About Us</a>
+              </li>
+              <li>
+                <a href="https://facebook.com/AsaduzzamanRakib.66">Insurance</a>
+              </li>
+              <li>
+                <a href="https://facebook.com/AsaduzzamanRakib.66">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Column 3 -->
+          <div class="flex flex-col gap-5">
+            <h3 class="font-bold text-xl">Help</h3>
+            <ul class="flex flex-col gap-5">
+              <li>
+                <a href="https://facebook.com/AsaduzzamanRakib.66">Home</a>
+              </li>
+              <li>
+                <a href="https://facebook.com/AsaduzzamanRakib.66">About Us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Column 4 -->
+           <div>
+            <h3 class="text-2xl font-bold mb-7">Subscribe to our newsletter</h3>
+            <div class="mb-7">
+              <input class="bg-orange-50 border-b-2 py-4" type="text" placeholder="Email Address" name="" id="">
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-1 rounded-full text-white "><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="mt-7 flex gap-5 text-2xl">
+              <a href="https://facebook.com/AsaduzzamanRakib.66"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://facebook.com/AsaduzzamanRakib.66"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://facebook.com/AsaduzzamanRakib.66"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+           </div>
+       </div>
+      <!-- Footer copyright -->
+       <div class="mt-20 text-center">© 2027 Ecomax Express - All rights reserved.</div>
+     </footer>
 </body>
 </html>
